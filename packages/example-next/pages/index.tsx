@@ -4,6 +4,7 @@ import MetaMaskCard from '../components/connectorCards/MetaMaskCard'
 import NetworkCard from '../components/connectorCards/NetworkCard'
 import WalletConnectCard from '../components/connectorCards/WalletConnectCard'
 import ProviderExample from '../components/ProviderExample'
+import Bleumi from '../components/connectorCards/Bleumi'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <CoinbaseWalletCard />
         <NetworkCard />
         <GnosisSafeCard />
+        <Bleumi/>
       </div>
     </>
   )
