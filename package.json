@@ -42,5 +42,6 @@
   "dependencies": {
     "@onflow/fcl": "^1.0.2",
     "axios": "^0.27.2"
-  }
+  },
+  "version": "0.0.0"
 }
