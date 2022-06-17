@@ -3,3 +3,4 @@ packages/*/dist/
 packages/example-next/.next/
 .env.local
 secrets.json
+packages/example-*/.env
