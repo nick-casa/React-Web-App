@@ -15,11 +15,13 @@
     "@web3-react/eip1193": "8.0.23-beta.0",
     "@web3-react/empty": "8.0.17-beta.0",
     "@web3-react/gnosis-safe": "8.0.3-beta.0",
+    "@web3-react/magic-connector": "^6.1.9",
     "@web3-react/metamask": "8.0.24-beta.0",
     "@web3-react/network": "8.0.23-beta.0",
     "@web3-react/types": "8.0.17-beta.0",
     "@web3-react/url": "8.0.22-beta.0",
     "@web3-react/walletconnect": "8.0.31-beta.0",
+    "@web3-react/walletconnect-connector": "^6.2.13",
     "next": "^12.1.5",
     "react-dom": "^18.0.0"
   }

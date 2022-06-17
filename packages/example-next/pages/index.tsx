@@ -4,6 +4,7 @@ import MetaMaskCard from '../components/connectorCards/MetaMaskCard'
 import NetworkCard from '../components/connectorCards/NetworkCard'
 import WalletConnectCard from '../components/connectorCards/WalletConnectCard'
 import ProviderExample from '../components/ProviderExample'
+import { Navbar } from '../components/Nav'
 
 //import Bleumi from '../components/connectorCards/Bleumi'
 
@@ -12,8 +13,8 @@ import "../flow/config";
 import { useState, useEffect } from "react";
 import * as fcl from "@onflow/fcl";
 
-
-export default function Home() {
+export default function App() {
+  
   // Tracks users status 
   const [user, setUser] = useState({loggedIn: null, addr: null})
 
@@ -33,7 +34,7 @@ export default function Home() {
         <button onClick={fcl.signUp}>Sign Up</button>
       </div>)
   }
-
+  
   return (
     <>
       <Head>
@@ -41,17 +42,22 @@ export default function Home() {
         <meta name="description" content="Test"/>
         <link rel="icon" href="/favicon.png"/>
       </Head>
-
-      <ProviderExample />
-      <div style={{ display: 'flex', flexFlow: 'wrap', fontFamily: 'sans-serif' }}>
-        <MetaMaskCard />
-        <WalletConnectCard />
-        <CoinbaseWalletCard />
-        <NetworkCard />
-        <GnosisSafeCard />
-        {user.loggedIn ? <AuthedState /> : <UnauthenticatedState/>}
-      </div>
+      
+      <Navbar data={user.loggedIn ? <AuthedState /> : <UnauthenticatedState/>}/>
     </>
-  )
-
+  );
 }
+
+
+  /*
+  
+  <ProviderExample />
+        <div style={{ display: 'flex', flexFlow: 'wrap', fontFamily: 'sans-serif' }}>
+          <MetaMaskCard />
+          <WalletConnectCard />
+          <CoinbaseWalletCard />
+          <NetworkCard />
+          <GnosisSafeCard />
+        </div>
+  */
+  

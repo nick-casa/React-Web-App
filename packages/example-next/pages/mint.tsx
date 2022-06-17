@@ -1,11 +1,11 @@
 import { Navbar } from "../components/Nav"
-
+import App from "../pages/index"
 
 export default function Mint() {
 
     return (
     <>
-    <Navbar/>
+    <App/>
     <h1>Mint your Next Road NFT</h1>
     
     </>

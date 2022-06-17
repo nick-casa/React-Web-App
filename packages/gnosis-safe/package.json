@@ -26,6 +26,8 @@
   "dependencies": {
     "@gnosis.pm/safe-apps-provider": "^0.11.0",
     "@gnosis.pm/safe-apps-sdk": "^7.3.0",
-    "@web3-react/types": "^8.0.17-beta.0"
+    "@web3-react/magic-connector": "^6.1.9",
+    "@web3-react/types": "^8.0.17-beta.0",
+    "@web3-react/walletconnect-connector": "^6.2.13"
   }
 }

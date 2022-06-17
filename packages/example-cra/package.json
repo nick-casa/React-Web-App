@@ -9,6 +9,8 @@
     "@types/react-dom": "^18.0.0",
     "@web3-react/core": "8.0.31-beta.0",
     "@web3-react/empty": "8.0.17-beta.0",
+    "@web3-react/magic-connector": "^6.1.9",
+    "@web3-react/walletconnect-connector": "^6.2.13",
     "react-dom": "^18.0.0",
     "react-scripts": "^5.0.1"
   },
