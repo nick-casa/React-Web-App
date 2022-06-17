@@ -9,7 +9,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "8.0.23-beta.0",
+  "version": "8.0.26-beta.0",
   "files": [
     "dist/*"
   ],
@@ -24,11 +24,15 @@
   },
   "dependencies": {
     "@ethersproject/providers": "^5",
+<<<<<<< HEAD
     "@web3-react/magic-connector": "^6.1.9",
     "@web3-react/types": "^8.0.17-beta.0",
     "@web3-react/walletconnect-connector": "^6.2.13"
+=======
+    "@web3-react/types": "^8.0.19-beta.0"
+>>>>>>> 9a5d6207c54457de7081755d5d69e5bd7c9fda31
   },
   "devDependencies": {
-    "@web3-react/store": "^8.0.22-beta.0"
+    "@web3-react/store": "^8.0.24-beta.0"
   }
 }

@@ -10,7 +10,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "8.0.3-beta.0",
+  "version": "8.0.5-beta.0",
   "files": [
     "dist/*"
   ],
@@ -26,8 +26,12 @@
   "dependencies": {
     "@gnosis.pm/safe-apps-provider": "^0.11.0",
     "@gnosis.pm/safe-apps-sdk": "^7.3.0",
+<<<<<<< HEAD
     "@web3-react/magic-connector": "^6.1.9",
     "@web3-react/types": "^8.0.17-beta.0",
     "@web3-react/walletconnect-connector": "^6.2.13"
+=======
+    "@web3-react/types": "^8.0.19-beta.0"
+>>>>>>> 9a5d6207c54457de7081755d5d69e5bd7c9fda31
   }
 }
